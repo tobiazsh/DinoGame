@@ -8,4 +8,18 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Resources\dead.png" />
+    <None Remove="Resources\obstacle-1.gif" />
+    <None Remove="Resources\obstacle-2.gif" />
+    <None Remove="Resources\running.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Resources\dead.png" />
+    <Compile Include="Resources\obstacle-1.gif" />
+    <Compile Include="Resources\obstacle-2.gif" />
+    <Compile Include="Resources\running.gif" />
+  </ItemGroup>
+
 </Project>
